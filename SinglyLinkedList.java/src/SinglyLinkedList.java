@@ -51,7 +51,7 @@ public class SinglyLinkedList {
 
      public void eliminar(Integer valor){
         if(cabeza==null){
-            System.out.println("No se puede eliminar, por que la lista esta vacia");
+            System.out.println("La lista esta vacia");
         }
         if(cabeza.getDato()==valor){
             cabeza=cabeza.getSiguiente();
